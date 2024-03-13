@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* Space elements evenly between top and bottom. */
+    width: 60%; /* Can be adjusted as needed. */
+    margin: 0 auto;
+}
+
+.calculator-section {
+    padding: 15px; /* Can be adjusted as needed. */
+}
+
+.centered {
+    text-align: center;
+}
+
+.calculator-section {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #2d1c97;
+}
+
+.result-label {
+    font-weight: bold;
+}
+
+#tipAmount, #totalAmount {
+    margin-bottom: 5px;
+}
+
+#error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 5px;
+    display: none; /* Initially hide the error message. */
+}
